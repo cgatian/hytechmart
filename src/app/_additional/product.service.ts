@@ -62,8 +62,8 @@ export class ProductService {
 
   getRandomProduct() {
     // Generates random number between 1 and 7
-    const index = Math.floor(Math.random() * 7) + 1;
-    return PRODUCTS[index];
+    const index = Math.floor(Math.random() * 6) + 1;
+    return PRODUCTS[index] || PRODUCTS[0];
   }
 
   // CHALLENGE: Only run this query when there's actually something to search for
