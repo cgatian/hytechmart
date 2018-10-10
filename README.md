@@ -18,8 +18,8 @@ npm run start
 
 |Component| Description|
 |---|---|
-|`ht-footer`|Displays contact information on the bottom of the page|
 |`ht-product-card`|Displays a random product from the product catalog|
 |`ht-product-search`|Searches for products by name|
 |`ht-shopping-cart`|Displays number of items in the cart|
-|`header`|Displays welcome message to the website|
+|`ht-header`|Displays welcome message to the website|
+|`ht-footer`|Displays contact information on the bottom of the page|
