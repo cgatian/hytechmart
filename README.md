@@ -1,27 +1,25 @@
-# HytechMart
+# Hytech Mart
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.2.4.
 
-## Development server
+## To start:
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Install NPM dependencies with:
+```bash
+npm install
+```
 
-## Code scaffolding
+Start Development Server with:
+```bash
+npm run start
+```
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Available Components
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+|Component| Description|
+|---|---|
+|`ht-footer`|Displays contact information on the bottom of the page|
+|`ht-product-card`|Displays a random product from the product catalog|
+|`ht-product-search`|Searches for products by name|
+|`ht-shopping-cart`|Displays number of items in the cart|
+|`header`|Displays welcome message to the website|
